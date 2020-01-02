@@ -1,0 +1,67 @@
+body
+{
+    background-color: #3D4952;
+    color: #FFB300;
+}
+
+main
+{
+    text-align: center;
+}
+
+header div
+{
+    display: flex;
+    text-align: center;
+}
+
+h1
+{
+    margin: auto;
+}
+
+header ul
+{
+    display: flex;
+    background-color: #0088CC;
+}
+
+header ul li
+{
+    list-style: none;
+    color: #FFB300;
+    margin: auto;
+}
+
+.line {
+    border-width:0.1em;
+    border-style: solid;
+    border-color: black;
+    flex: 1;
+}
+
+h2 
+{
+    margin: 0 0.3em 0.5em 0.3em;
+}
+
+footer
+{
+    display: flex;
+    text-align: center;
+}
+
+footer h3
+{
+    margin: auto;
+}
+
+address
+{
+    position: fixed;
+    right: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
