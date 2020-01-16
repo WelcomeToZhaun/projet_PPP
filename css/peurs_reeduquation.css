@@ -86,3 +86,5 @@ address
     border-color: black;
     flex: 1;
 }
+
+@media screen and (m)
