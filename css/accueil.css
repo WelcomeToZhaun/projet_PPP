@@ -16,9 +16,19 @@ header div
     text-align: center;
 }
 
+header div h1
+{
+    margin-bottom: 2em;
+}
+
 h1
 {
     margin: auto;
+}
+
+main h2
+{
+    margin: 3em;
 }
 
 body
@@ -37,6 +47,7 @@ header ul
 {
     display: flex;
     background: radial-gradient(white, #FFB300);
+    height: 7em;
 }
 
 header ul li
@@ -78,6 +89,7 @@ h2
 .container {
     position: relative;
     flex-basis: 50%;
+    margin-bottom: 3em;
 }
 
 .img {
