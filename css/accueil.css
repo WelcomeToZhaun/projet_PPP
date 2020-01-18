@@ -1,7 +1,8 @@
 body
 {
-    background-color: #3D4952;
+    background: linear-gradient(black, 70%, white);
     color: #FFB300;
+    margin: 1em;
 }
 
 main
@@ -20,23 +21,34 @@ h1
     margin: auto;
 }
 
+body
+{
+    background-color: #3D4952;
+    color: #FFB300;
+}
+
+header div
+{
+    display: flex;
+    text-align: center;
+}
+
 header ul
 {
     display: flex;
-    background-color: #0088CC;
+    background: radial-gradient(white, #FFB300);
 }
 
 header ul li
 {
     list-style: none;
-    color: #FFB300;
-    margin: auto;
+    color: black;
 }
 
 header ul a
 {
     margin: auto;
-    width: 30%;
+    padding: 16px;
 }
 
 a:hover
@@ -81,5 +93,15 @@ address
     border-width: 1px;
     border-style: solid;
     border-color: black;
+    color: black;
+    background-color: #FFB300;
 }
 
+address a{
+    color: black;
+}
+
+address a:hover
+{
+    color: black;
+}
