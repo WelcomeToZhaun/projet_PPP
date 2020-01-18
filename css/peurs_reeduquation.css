@@ -20,7 +20,22 @@ header ul li
 {
     list-style: none;
     color: #FFB300;
+}
+
+header ul a
+{
     margin: auto;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+a li:hover
+{
+    text-decoration: none;
+    font-size: large
 }
 
 h1{
@@ -37,12 +52,17 @@ main{
     text-align: center;
 }
 
+.images{
+    display: flex;
+}
+
 img{
     margin: auto;
 }
 
 .img1{
     margin-bottom:15em ;
+    margin-top: 0.5em;
 }
 
 .img2{
@@ -51,11 +71,185 @@ img{
 
 .img3{
     margin-bottom:15em ;
+    margin-top: 0.5em;
 }
 
 .img4{
     margin-top:15em ;
 }
+
+/* création de l'animation du hover image/texte */
+
+.container1 {
+    position: relative;
+    width: 50%;
+}
+
+.container2 {
+    position: relative;
+    width: 50%;
+}
+
+.container3 {
+    position: relative;
+    width: 50%;
+}
+
+.container4 {
+    position: relative;
+    width: 50%;
+}
+
+.img1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.img2 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.img3 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.img4 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle4 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container1:hover .img1 {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+.container2:hover .img2 {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+.container3:hover .img3 {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+.container4:hover .img4 {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+.container1:hover .middle1 {
+    opacity: 1;
+}
+
+.container2:hover .middle2 {
+    opacity: 1;
+}
+
+.container3:hover .middle3 {
+    opacity: 1;
+}
+
+.container4:hover .middle4 {
+    opacity: 1;
+}
+
+.text1 {
+    background-color: #FFB300;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    margin-top: 10em;
+    width: 200%;
+}
+
+.text2 {
+    background-color: #FFB300;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    width: 200%;
+}
+
+.text3 {
+    background-color: #FFB300;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    width: 200%;
+}
+
+.text4 {
+    background-color: #FFB300;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    width: 200%;
+}
+
+/* création de l'animation du hover image/texte */
 
 footer
 {
@@ -87,4 +281,3 @@ address
     flex: 1;
 }
 
-@media screen and (m)
