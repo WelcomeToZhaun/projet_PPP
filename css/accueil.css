@@ -2,7 +2,7 @@ body
 {
     background: linear-gradient(black, 70%, white);
     color: #FFB300;
-    margin: 1em;
+    height: 200%;
 }
 
 main
@@ -75,6 +75,50 @@ h2
     margin: 0 0.3em 0.5em 0.3em;
 }
 
+.container {
+    position: relative;
+    flex-basis: 50%;
+}
+
+.img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    height: 90%;
+    width: 100%;
+}
+
+.container:hover .img {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+    z-index: 1;
+}
+
+.text {
+    background-color: #FFB300;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    width: 100%;
+}
+
 footer
 {
     display: flex;
@@ -90,6 +134,7 @@ address
 {
     position: fixed;
     right: 1px;
+    bottom: 3em;
     border-width: 1px;
     border-style: solid;
     border-color: black;
