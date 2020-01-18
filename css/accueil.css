@@ -33,6 +33,24 @@ header ul li
     margin: auto;
 }
 
+header ul a
+{
+    margin: auto;
+    width: 30%;
+}
+
+a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a li:hover
+{
+    text-decoration: none;
+    font-size: large
+}
+
 .line {
     border-width:0.1em;
     border-style: solid;

@@ -30,6 +30,7 @@ header ul a
 a:hover
 {
     text-decoration: none;
+    font-weight: bold;
 }
 
 a li:hover
@@ -54,6 +55,7 @@ main{
 
 .images{
     display: flex;
+    flex-wrap: wrap;
 }
 
 img{
@@ -221,8 +223,7 @@ img{
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-    margin-top: 10em;
-    width: 200%;
+    width: 150%;
 }
 
 .text2 {
@@ -230,7 +231,7 @@ img{
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-    width: 200%;
+    width: 150%;
 }
 
 .text3 {
@@ -238,7 +239,7 @@ img{
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-    width: 200%;
+    width: 150%;
 }
 
 .text4 {
@@ -246,7 +247,8 @@ img{
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-    width: 200%;
+    margin-right: 20em;
+    width: 150%;
 }
 
 /* création de l'animation du hover image/texte */
@@ -279,5 +281,10 @@ address
     border-style: solid;
     border-color: black;
     flex: 1;
+}
+
+blockquote
+{
+    font-style: italic;
 }
 
