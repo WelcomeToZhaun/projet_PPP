@@ -1,0 +1,544 @@
+header div {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 300%;
+}
+
+body > article > pre {
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+body header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body > article {
+    border-style: double;
+    width: 5em;
+    height: 5em;
+    margin: 5%;
+    margin-top: 7em;
+    display: inline-flex;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    background: linear-gradient(black, 1%, white);
+}
+
+body main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main div {
+    width: 30em;
+    flex-grow: 0;
+    border-radius: 50%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    flex-basis: auto;
+}
+
+main a div {
+    width: 30em;
+    flex-grow: 0;
+    border-radius: 50%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    flex-basis: auto;
+}
+
+main > div {
+    border-style: solid;
+}
+.un{
+    height:5em;
+}
+.un:hover {
+    background: linear-gradient(white, 99%, black);
+}
+
+.deux:hover {
+    background: linear-gradient(white, 99%, black);
+}
+
+.trois:hover {
+    background: linear-gradient(white, 99%, black);
+}
+
+.quatre:hover {
+    background: linear-gradient(white, 99%, black);
+}
+
+.cinq:hover {
+    background: linear-gradient(white, 99%, black);
+}
+
+.six:hover {
+    background: linear-gradient(white, 99%, black);
+}
+
+.sept:hover {
+    background: linear-gradient(white, 99%, black);
+}
+
+.un .deux .trois .quatre .cinq .six .sept {
+    background: linear-gradient(black, 1%, white);
+    transition: all 10s;
+}
+
+
+.un p {
+    right: 10000%;
+    position: relative;
+    transition: all 0.7s;
+    border-style: double;
+
+}
+
+.deux p {
+    right: 10000%;
+    position: relative;
+    transition: all 0.7s;
+    border-style: double;
+}
+
+.trois p {
+    right: 10000%;
+    position: relative;
+    transition: all 0.7s;
+    border-style: double;
+}
+
+.quatre p {
+    right: 10000%;
+    position: relative;
+    transition: all 0.7s;
+    border-style: double;
+}
+
+.cinq p {
+    right: 10000%;
+    position: relative;
+    transition: all 0.7s;
+    border-style: double;
+}
+
+.six p {
+    right: 10000%;
+    position: relative;
+    transition: all 0.7s;
+    border-style: double;
+}
+
+.sept p {
+    right: 10000%;
+    top: -40%;
+    position: relative;
+    transition: all 0.7s;
+    border-style: double;
+}
+
+
+section {
+    background: radial-gradient(white, #ffb300);
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15%;
+    border-style: double;
+}
+
+.cadre img {
+    z-index: 1;
+    /* image au dessus */
+    position: relative;
+    /* pour prise en compte z-index */
+    width: 2em;
+    /* largeur à ajuster suivant le besoin */
+}
+
+.bras pre {
+    display: block;
+    position: absolute;
+    /* positionnement hors flux */
+    left: -6000%;
+    top: 0%;
+    /* décalage à gauche toute */
+    padding: 0 .25em;
+    /* un peu d'espace latéral */
+    color: lightslategrey;
+    /* couleur du texte à ajuster suivant le besoin */
+    background: white;
+    /* couleur du fond à ajuster suivant le besoin */
+    transition: all 1.2s;
+    /* la transition à appliquer */
+    z-index: 3;
+
+    border-color: lightgrey;
+    border-style: double;
+    font-family: fantasy;
+    font-size: 100%;
+    padding: 1em;
+}
+
+.tete pre {
+    display: block;
+    position: absolute;
+    /* positionnement hors flux */
+    left: -4000%;
+    top: 0%;
+    /* décalage à gauche toute */
+    padding: 0 .25em;
+    /* un peu d'espace latéral */
+    color: lightslategrey;
+    /* couleur du texte à ajuster suivant le besoin */
+    background: white;
+    /* couleur du fond à ajuster suivant le besoin */
+    transition: all 1.2s;
+    /* la transition à appliquer */
+    z-index: 3;
+    border-style: double;
+    border-color: lightgrey;
+    font-family: fantasy;
+    font-size: 100%;
+    padding: 1em;
+}
+
+.coeur pre {
+    display: block;
+    position: absolute;
+    /* positionnement hors flux */
+    left: -6000%;
+    top: 00%;
+    /* décalage à gauche toute */
+    padding: 0 .25em;
+    /* un peu d'espace latéral */
+    color: lightslategrey;
+    /* couleur du texte à ajuster suivant le besoin */
+    background: white;
+    /* couleur du fond à ajuster suivant le besoin */
+    transition: all 1.2s;
+    /* la transition à appliquer */
+    z-index: 3;
+    border-style: double;
+    border-color: lightgrey;
+    font-family: fantasy;
+    font-size: 90%;
+    padding: 1em;
+}
+
+.jambe pre {
+    display: block;
+    position: absolute;
+    /* positionnement hors flux */
+    left: -4000%;
+    top: 0%;
+    /* décalage à gauche toute */
+    padding: 0 .25em;
+    /* un peu d'espace latéral */
+    color: lightslategrey;
+    /* couleur du texte à ajuster suivant le besoin */
+    background: white;
+    /* couleur du fond à ajuster suivant le besoin */
+    transition: all 1.2s;
+    /* la transition à appliquer */
+    z-index: 3;
+    border-style: double;
+    border-color: lightgrey;
+    font-family: fantasy;
+    font-size: 100%;
+    padding: 1em;
+}
+
+.ventre pre {
+    display: block;
+    position: absolute;
+    /* positionnement hors flux */
+    left: -4000%;
+    top: -0%;
+    /* décalage à gauche toute */
+    padding: 0 .25em;
+    /* un peu d'espace latéral */
+    color: lightslategrey;
+    /* couleur du texte à ajuster suivant le besoin */
+    background: white;
+    /* couleur du fond à ajuster suivant le besoin */
+    transition: all 1.2s;
+    /* la transition à appliquer */
+    z-index: 3;
+    border-style: double;
+    border-color: lightgrey;
+    font-family: fantasy;
+    font-size: 100%;
+    padding: 1em;
+}
+
+.cadre:hover span {
+    left: 2em;
+    /* position égale à la largeur de l'image */
+}
+
+main div div {
+    position: relative;
+}
+
+.tete {
+    right: 20.5%;
+    height: 20%;
+    top: 1.9%;
+}
+
+.ventre {
+    top: 37%;
+    right: 43.1%;
+    height: 20%;
+}
+
+.coeur {
+    top: 17.4%;
+    right: 24.4%;
+    height: 20%;
+}
+
+.bras {
+    right: 24.5%;
+    top: 33.5%;
+    z-index: 2;
+    height: 20%;
+}
+
+.corps {
+    left: 26.1%;
+}
+
+.jambe {
+    right: -1.2%;
+    top: 56.3%;
+    height: 30%;
+}
+
+.bras:hover pre {
+    left: -6.2em;
+    top: 2em;
+}
+
+.tete:hover pre {
+    left: -6.2em;
+    top: -7em;
+}
+
+.ventre:hover pre {
+    left: -6.2em;
+    top: 2em;
+}
+
+.jambe:hover pre {
+    left: -6.2em;
+    top: 2em;
+}
+
+.coeur:hover pre {
+    left: -6.2em;
+    top: 2em;
+}
+
+.menu {
+    right: 5%;
+    position: relative;
+}
+
+.menu img {
+    transition: all 2s;
+}
+
+.menu span {
+    position: relative;
+    transition: all 2s;
+    right: 70%;
+}
+
+.menu img:hover {
+    transform: rotate(360deg);
+}
+
+.menu:hover span {
+    right: 100%;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+header div div {
+    width: 25%;
+    margin-top: 5%;
+}
+
+.degradeCircle {
+    background: radial-gradient(white, #ffb300);
+}
+
+.degradeFond {
+    background: linear-gradient(black, 31%, white);
+}
+
+p {
+    width: 150%;
+    background: white;
+}
+
+.un p {
+    top: -10000%;
+    position: relative;
+    transition: all 0.5s;
+    border-style: double;
+
+}
+
+.deux p {
+    top: -10000%;
+    position: relative;
+    transition: all 0.4s;
+    border-style: double;
+}
+
+.trois p {
+    top: -10000%;
+    position: relative;
+    transition: all 0.5s;
+    border-style: double;
+}
+
+.quatre p {
+    top: -10000%;
+    position: relative;
+    transition: all 1s;
+    border-style: double;
+}
+
+.cinq p {
+    right: 10000%;
+    position: relative;
+    transition: all 1s;
+    border-style: double;
+}
+
+.six p {
+    right: 10000%;
+    position: relative;
+    transition: all 1s;
+    border-style: double;
+}
+
+.sept p {
+    right: 10000%;
+    position: relative;
+    transition: all 1s;
+    border-style: double;
+
+}
+
+footer {
+
+    height: 20%;
+}
+
+.un:hover p {
+    position:relative;
+    right: -100%;
+    top: -05%;
+    border-style: double;
+    font-family: fantasy;
+    font-size: 110%;
+    padding: 2em;
+}
+
+.deux:hover p {
+    right: -90%;
+    top: -05%;
+    border-style: double;
+    font-family: fantasy;
+    font-size: 110%;
+    padding: 2em;
+
+}
+
+.trois:hover p {
+
+    right: -90%;
+    top: -05%;
+    border-style: double;
+    font-family: fantasy;
+    font-size: 110%;
+    padding: 2em;
+}
+
+.quatre:hover p {
+    right: -90%;
+    top: -45%;
+    border-style: double;
+    font-family: fantasy;
+    font-size: 110%;
+    padding: 2em;
+}
+
+.cinq:hover p {
+    right: -90%;
+    top: -05%;
+    border-style: double;
+    font-family: fantasy;
+    font-size: 110%;
+    padding: 2em;
+}
+
+.six:hover p {
+    right: -90%;
+    top: -63%;
+    border-style: double;
+    font-family: fantasy;
+    font-size: 110%;
+    padding: 2em;
+
+}
+
+.sept:hover p {
+    right: -90%;
+    top: -89%;
+    border-style: double;
+    font-family: fantasy;
+    font-size: 110%;
+    padding: 2em;
+
+}
+footer div{
+    position:fixed;
+    right:5px;
+    bottom: 1px;
+    margin: 1em;
+}
