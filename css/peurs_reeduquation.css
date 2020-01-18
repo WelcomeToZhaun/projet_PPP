@@ -2,7 +2,17 @@ body
 {
     background: linear-gradient(black, 55%, white);
     color: #FFB300;    
-    margin: 1em;
+    margin: 4em;
+}
+
+header div h1
+{
+    margin-bottom: 2em;
+}
+
+h2
+{
+    margin: 3em;
 }
 
 header div
@@ -15,6 +25,7 @@ header ul
 {
     display: flex;
     background: radial-gradient(white, #FFB300);
+    height: 7em;
 }
 
 header ul li
@@ -27,6 +38,7 @@ header ul a
 {
     margin: auto;
     padding: 16px;
+    font-size: larger;
 }
 
 a:hover
@@ -44,16 +56,16 @@ h1{
     margin: auto;
 }
 
-h2{
-    border-style: solid;
+h2
+{
     box-sizing: border-box;
-    border-color: black;
     text-align: center;
 }
 
 main{
     text-align: center;
 }
+
 
 .images{
     display: flex;
@@ -71,22 +83,44 @@ img{
 .container1 {
     position: relative;
     flex-basis: 50%;
+    margin-bottom: 5%;
 }
 
 .container2 {
     position: relative;
     flex-basis: 50%;
+    margin-bottom: 5%;
 }
 
 .container3 {
     position: relative;
     flex-basis: 50%;
+    margin-top: 5%;
 }
 
 .container4 {
     position: relative;
     flex-basis: 50%;
+    margin-top: 5%;
 }
+
+.container1 img
+{
+    margin-left: 50%;
+}
+.container2 img
+{
+    margin-right: 50%;
+}
+.container3 img
+{
+    margin-left: 50%;
+}
+.container4 img
+{
+    margin-right: 50%;
+}
+
 
 .img1 {
     opacity: 1;
@@ -128,7 +162,7 @@ img{
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-top: 50%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -257,19 +291,19 @@ top: 50%;
 @media(max-width:1080px)
 {
     .middle1 {
-        width: 120%;
+        width: 140%;
     }
 
     .middle2 {
-        width: 120%;
+        width: 140%;
     }
 
     .middle3 {
-        width: 120%;
+        width: 140%;
     }
 
     .middle4 {
-        width: 120%;
+        width: 140%;
     }
 }
 
@@ -305,6 +339,7 @@ footer
 footer h3
 {
     margin: auto;
+    margin-top: 5em;
     position: relative;
 }
 
@@ -312,7 +347,7 @@ address
 {
     position: fixed;
     right: 1px;
-    bottom: 1em;
+    bottom: 0.2em;
     border-width: 1px;
     border-style: solid;
     border-color: black;

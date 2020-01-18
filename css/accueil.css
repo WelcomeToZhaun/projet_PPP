@@ -2,7 +2,7 @@ body
 {
     background: linear-gradient(black, 70%, white);
     color: #FFB300;
-    height: 200%;
+    margin: 3em;
 }
 
 main
@@ -134,7 +134,7 @@ address
 {
     position: fixed;
     right: 1px;
-    bottom: 3em;
+    bottom: 0.2em;
     border-width: 1px;
     border-style: solid;
     border-color: black;
